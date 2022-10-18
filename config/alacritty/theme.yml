@@ -1,0 +1,55 @@
+# Manhattan for Alacritty
+# ~/.config/alacritty/theme.yml
+colors:
+  primary:
+    background: '#1f242a'
+    foreground: '#ccd3da'
+    dim_foreground: '#b3bdc8'
+    bright_foreground: '#e5e9ec'
+  cursor:
+    text: '#1f242a'
+    cursor: '#56c6b2'
+  vi_mode_cursor:
+    text: '#1f242a'
+    cursor: '#56c6b2'
+  search:
+    matches:
+      foreground: '#3c4652'
+      background: '#b196f0'
+    focused_match:
+      foreground: '#b196f0'
+      background: '#3c4652'
+  hints:
+    start:
+      foreground: '#3c4652'
+      background: '#e8ce9b'
+    end:
+      foreground: '#e8ce9b'
+      background: '#3c4652'
+  line_indicator:
+    foreground: None
+    background: None
+  footer_bar:
+    foreground: '#3c4652'
+    background: '#b196f0'
+  selection:
+    text: '#ccd3da'
+    background: '#4b5766'
+  normal:
+    black: '#617184'
+    red: '#f46d7e'
+    green: '#93c68c'
+    yellow: '#e8ce9b'
+    blue: '#60aafb'
+    magenta: '#e397bb'
+    cyan: '#7ac6db'
+    white: '#e5e9ec'
+  bright:
+    black: '#617184'
+    red: '#f46d7e'
+    green: '#93c68c'
+    yellow: '#e8ce9b'
+    blue: '#60aafb'
+    magenta: '#e397bb'
+    cyan: '#7ac6db'
+    white: '#e5e9ec'

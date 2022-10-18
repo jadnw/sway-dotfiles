@@ -1,0 +1,251 @@
+/*
+ * vim: ft=less
+ */
+@import url("theme.css");
+
+* {
+  font-family: 'Jetka';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.notification-row {
+  outline: none;
+  background: transparent;
+}
+
+.notification-row:focus {
+  background: @bg1;
+}
+
+.notification-row:hover {
+  background: @bg2;
+}
+
+.notification {
+  border-radius: 4px;
+  padding: 0;
+}
+
+/* Uncomment to enable specific urgency colors
+.low {
+  background: @yellow;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.normal {
+  background: @green;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.critical {
+  background: @red;
+  padding: 6px;
+  border-radius: 4px;
+}
+*/
+
+.notification-content {
+  background: transparent;
+  border-radius: 4px;
+}
+
+.close-button {
+  background: @bg4;
+  color: @white;
+  text-shadow: none;
+  padding: 0;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 16px;
+  box-shadow: none;
+  border: none;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.close-button:hover {
+  box-shadow: none;
+  background: @red;
+  color: @bg0;
+  transition: all 0.15s ease-out;
+  border: none;
+}
+
+.notification-default-action,
+.notification-action {
+  padding: 4px;
+  margin: 0;
+  box-shadow: none;
+  background: @bg0;
+  border: 1px solid @bg2;
+  color: @fg1;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+  -gtk-icon-effect: none;
+  background: @bg1;
+}
+
+.notification-default-action {
+  border-radius: 4px;
+}
+
+/* When alternative actions are visible */
+.notification-default-action:not(:only-child) {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.notification-action {
+  border-radius: 0px;
+  border-top: none;
+  border-right: none;
+}
+
+/* add bottom border radius to eliminate clipping */
+.notification-action:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.notification-action:last-child {
+  border-bottom-right-radius: 10px;
+  border-right: 1px solid @bg2;
+}
+
+.image {
+}
+
+.body-image {
+  margin-top: 6px;
+  background-color: @fg1;
+  border-radius: 4px;
+}
+
+.summary {
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: @fg1;
+  text-shadow: none;
+}
+
+.time {
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: @gray;
+  text-shadow: none;
+}
+
+.body {
+  font-size: 14px;
+  font-weight: normal;
+  background: transparent;
+  color: @fg2;
+  text-shadow: none;
+}
+
+/* The "Notifications" and "Do Not Disturb" text widget */
+.top-action-title {
+  color: white;
+  text-shadow: none;
+}
+
+.control-center {
+  border-radius: 4px;
+  background: @bg0;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.floating-notifications {
+  background: transparent;
+}
+
+/* Window behind control center and on all other monitors */
+.blank-window {
+  background: alpha(black, 0.25);
+}
+
+/*** Widgets ***/
+
+/* Title widget */
+.widget-title {
+  margin: 8px;
+  font-size: 1.5rem;
+}
+
+.widget-title > button {
+  padding: 4px 12px;
+  color: white;
+  text-shadow: none;
+  background: @bg1;
+  border: 1px solid @bg2;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+.widget-title > button:hover {
+  background: @bg3;
+}
+
+/* DND widget */
+.widget-dnd {
+  margin: 8px;
+  font-size: 1.1rem;
+}
+
+.widget-dnd > switch {
+  font-size: initial;
+  border-radius: 4px;
+  background: @bg1;
+  border: 1px solid @bg2;
+  box-shadow: none;
+}
+
+.widget-dnd > switch:checked {
+  background: @accent;
+}
+
+.widget-dnd > switch slider {
+  background: @fg3;
+  border-radius: 4px;
+}
+
+.widget-dnd > switch:checked slider {
+  background: @bg1;
+}
+
+/* Label widget */
+.widget-label {
+  margin: 8px;
+}
+
+.widget-label > label {
+  font-size: 16px;
+}
+
+/* Mpris widget */
+.widget-mpris {
+  /* The parent to all players */
+}
+
+.widget-mpris-player {
+  padding: 8px;
+  margin: 8px;
+}
+
+.widget-mpris-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.widget-mpris-subtitle {
+  font-size: 1.1rem;
+}

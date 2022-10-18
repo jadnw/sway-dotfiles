@@ -1,0 +1,32 @@
+# Ignore themes directory
+/themes
+
+# Ignore hyprland temp
+/hyprland
+
+# Ignore fonts
+/iosevka
+
+# LunarVim plugins
+**/lvim/plugin
+
+# QuteBrowser files
+**/qutebrowser/__pycache__/
+**/qutebrowser/bookmarks/
+**/qutebrowser/greasemonkey/
+**/qutebrowser/autoconfig.yml
+**/qutebrowser/quickmarks
+
+# Fish
+**/fish/fish_variables
+
+# Btop
+**/btop/btop.log
+
+# Ignore compressed files
+**/*.zip
+**/*.tar.xz
+**/*.tar.gz
+
+# pycache
+**/__pycache__/

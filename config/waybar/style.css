@@ -1,0 +1,222 @@
+@import url("theme.css");
+
+* {
+  all: unset;
+}
+
+window#waybar {
+  background-color: @bg0;
+}
+
+tooltip {
+  font-family: "Jetka";
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid @bg4;
+  background-color: @bg0;
+}
+
+tooltip label {
+  color: @fg1;
+}
+
+.modules-left {
+  margin-left: 4px;
+  margin-right: 16px;
+}
+
+.modules-right {
+  margin-right: 4px;
+}
+
+/* Sway Workspaces */
+#workspaces {
+  border-radius: 4px;
+}
+
+#workspaces button {
+  margin: 0px 8px;
+  font-family: "Material Icons Outlined";
+  font-size: 22px;
+  color: @bg4;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+#workspaces button.focused {
+  color: @accent;
+  font-family: "Material Icons Round";
+}
+
+#workspaces button.active {
+  color: @accent;
+}
+
+/* Sway Window */
+#window {
+  margin-left: 8px;
+  padding-top: 2px;
+  font-family: "Jetka";
+  font-weight: 500;
+  font-size: 16px;
+  color: @green;
+}
+
+/* CPU & Memory */
+#cpu,
+#disk,
+#memory {
+  margin: 4px 2px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  font-family: "Jetka";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#cpu {
+  background-color: @bg1;
+  color: @green;
+}
+
+#disk {
+  background-color: @bg1;
+  color: @yellow;
+}
+
+#memory {
+  background-color: @bg1;
+  color: @red;
+}
+
+/* Clock */
+#clock {
+  margin: 4px 2px;
+  min-width: 170px;
+  padding: 0px 12px;
+  padding-top: 2px;
+  border-radius: 4px;
+  font-family: "Jetka";
+  font-size: 16px;
+  font-weight: 600;
+  background-color: @bg2;
+  color: @fg0;
+}
+
+/* Idle Inhibitor */
+#idle_inhibitor {
+  background-color: @bg1;
+  color: @cyan;
+}
+
+#idle_inhibitor.activated {
+  background-color: @cyan;
+  color: @bg1;
+}
+
+/* Network */
+#network,
+#network.linked,
+#network.ethernet,
+#network.wifi {
+  background-color: @bg1;
+  color: @magenta;
+}
+
+#network.disabled,
+#network.disconnected {
+  background-color: @magenta;
+  color: @bg1;
+}
+
+/* Pulseaudio */
+#pulseaudio {
+  background-color: @bg1;
+  color: @teal;
+}
+
+#pulseaudio.bluetooth {
+  background-color: @blue;
+  color: @bg1;
+}
+
+#pulseaudio.muted {
+  background-color: @red;
+  color: @bg1;
+}
+
+/* CUSTOM MODULES */
+#idle_inhibitor,
+#network,
+#pulseaudio,
+#custom-colorpicker,
+#custom-documents,
+#custom-idle-inhibitor,
+#custom-launcher,
+#custom-nightlight,
+#custom-notifications,
+#custom-power,
+#custom-recorder,
+#custom-screenshot,
+#custom-windows {
+  margin: 4px 2px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  font-family: "Material Icons Round";
+  font-size: 18px;
+}
+
+/* Nightlight */
+.nightlight {
+  background-color: @bg1;
+  color: @purple;
+}
+
+.nightlight-active {
+  background-color: @purple;
+  color: @bg1;
+}
+
+/* Notifications */
+.notification {
+  background-color: @bg1;
+  color: @yellow;
+}
+
+.none {
+  background-color: @bg1;
+  color: @orange;
+}
+
+.dnd {
+  background-color: @orange;
+  color: @bg1;
+}
+
+/* Power Menu */
+#custom-power {
+  margin-right: 0;
+}
+
+.power {
+  background-color: @bg1;
+  color: @red;
+}
+
+.power-active {
+  background-color: @red;
+  color: @bg1;
+}
+
+/* Recorder */
+.recorder {
+  background-color: @bg1;
+  color: @magenta;
+}
+
+.recorder-active {
+  background-color: @magenta;
+  color: @bg1;
+}

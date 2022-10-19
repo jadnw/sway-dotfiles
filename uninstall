@@ -1,0 +1,33 @@
+#!/bin/fish
+
+paru -R \
+  alacritty \
+  btop \
+  breeze-snow-cursor-theme \
+  glfw-wayland \
+  grim \
+  imagemagick \
+  imv \
+  papirus-icon-theme \
+  qt5-wayland \
+  qt6-wayland \
+  rofi-lbonn-wayland-git \
+  sddm \
+  sddm-sugar-candy-git \
+  slurp \
+  starship \
+  sway \
+  swaybg \
+  swaylock-effects-git \
+  ttf-fira-sans \
+  waybar \
+  wf-recorder \
+  wlr-randr \
+  wlsunset \
+  wl-clipboard \
+  xorg-xwayland \
+  xorg-xlsclients \
+  zathura \
+  zathura-pdf-poppler
+
+rm -rf ~/{.config,.local/share/fonts,.local/share/themes}

@@ -140,6 +140,9 @@ input "7847:2:2.4G_RF_Keyboard_&_Mouse" {
     # Open Launcher
     bindsym $mod+d exec $launcher
 
+    # Lock screen
+    bindsym $mod+Control+l exec swaylock
+
     # Power Menu 
     bindsym $mod+Shift+q exec $powermenu
 

@@ -79,6 +79,7 @@ paru -S --noconfirm --needed \
   imagemagick \
   imv \
   papirus-icon-theme \
+  polkit \
   qt5-wayland \
   qt6-wayland \
   rofi-lbonn-wayland-git \
@@ -88,6 +89,7 @@ paru -S --noconfirm --needed \
   starship \
   sway \
   swaybg \
+  swayidle \
   swaylock-effects-git \
   swaync \
   ttf-roboto \

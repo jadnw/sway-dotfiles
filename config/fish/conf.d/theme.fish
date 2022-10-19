@@ -1,24 +1,24 @@
-# Manhattan colorscheme for Fish
+# Winterfell colorscheme for Fish
 # ~/.config/fish/conf.d/theme.fish
 
 # --> special
-set -l fg ccd3da
-set -l sel 4b5766
+set -l fg 9ab3c1
+set -l sel 334855
 
 # --> palette
-set -l red f46d7e
-set -l green 93c68c
-set -l yellow e8ce9b
-set -l orange f4a582
-set -l blue 60aafb
-set -l magenta e397bb
-set -l purple b196f0
-set -l cyan 7ac6db
-set -l gray 617184
+set -l red df6265
+set -l green 8ed084
+set -l yellow d9c57a
+set -l orange ec9772
+set -l blue 62a5fd
+set -l magenta f474bc
+set -l purple a47efd
+set -l cyan 60b8d8
+set -l gray 466272
 
 # Syntax Highlighting
 set -g fish_color_normal $fg
-set -g fish_color_command $blue
+set -g fish_color_command $green
 set -g fish_color_param $fg
 set -g fish_color_keyword $red
 set -g fish_color_quote $green
@@ -28,7 +28,7 @@ set -g fish_color_error $red
 set -g fish_color_gray $gray
 set -g fish_color_selection --background=$sel
 set -g fish_color_search_match --background=$sel
-set -g fish_color_operator $purple
+set -g fish_color_operator $blue
 set -g fish_color_escape $magenta
 set -g fish_color_autosuggestion $gray
 set -g fish_color_cancel $red

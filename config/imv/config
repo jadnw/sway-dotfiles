@@ -2,20 +2,21 @@
 # ██ ·██ ▐███▪▪█·█▌
 # ▐█·▐█ ▌▐▌▐█·▐█▐█•
 # ▐█▌██ ██▌▐█▌ ███ 
-# ▀▀▀▀▀  █▪▀▀▀. ▀  
+# ▀▀▀▀▀ █▪▀▀▀. ▀  
 # Created by: Jaden Wu
 # Github: @jadnw
 # Email: jadenwu137@protonmail.com
 
+# Winterfell for imv
 # ~/.config/imv/config
 
 # styling
 [options]
-background = #121519
+background = #192329
 fullscreen = false
 overlay = true
-overlay_text_color = #ccd3da
-overlay_background_color = #2d353e
+overlay_text_color = #b0c4ce
+overlay_background_color = #1f2c34
 overlay_background_alpha = ff
 overlay_font = Jetka:11
 overlay_position_bottom = false

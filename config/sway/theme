@@ -1,7 +1,7 @@
-# window decorations
+# Sway window decorations
 # class                 border              background          text                indicator           child_border
-client.focused          #56c6b2     #4b5766        #ccd3da        #f46d7e        #56c6b2
-client.focused_inactive #4b5766        #4b5766        #ccd3da        #f46d7e        #4b5766
-client.unfocused        #1f242a        #1f242a        #ccd3da        #f46d7e        #1f242a
-client.urgent           #f46d7e        #f46d7e        #1f242a        #f46d7e        #f46d7e
+client.focused          #8ed084     #334855        #9ab3c1        #df6265        #8ed084
+client.focused_inactive #334855        #334855        #9ab3c1        #df6265        #334855
+client.unfocused        #192329        #192329        #9ab3c1        #df6265        #192329
+client.urgent           #df6265        #df6265        #192329        #df6265        #df6265
     

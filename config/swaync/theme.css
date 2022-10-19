@@ -1,27 +1,27 @@
-/* Manhattan Colorscheme for GTK CSS */
+/* Winterfell colorscheme for GTK CSS */
+ /* ~/.config/swaync/theme.css */
 
- /* ~/.config/waybar/colors.css */
+@define-color accent #8ed084;
+@define-color bg0 #11171b;
+@define-color bg1 #192329;
+@define-color bg2 #1f2c34;
+@define-color bg3 #2d3f4a;
+@define-color bg4 #334855;
 
-@define-color accent #56c6b2;
-@define-color bg0 #121519;
-@define-color bg1 #1f242a;
-@define-color bg2 #2d353e;
-@define-color bg3 #3c4652;
-@define-color bg4 #4b5766;
-
-@define-color fg0 #e5e9ec;
-@define-color fg1 #ccd3da;
-@define-color fg2 #b3bdc8;
-@define-color fg3 #a7b3bf;
-@define-color black #101215;
-@define-color red #f46d7e;
-@define-color orange #f4a582;
-@define-color yellow #e8ce9b;
-@define-color green #93c68c;
-@define-color teal #56c6b2;
-@define-color cyan #7ac6db;
-@define-color blue #60aafb;
-@define-color magenta #e397bb;
-@define-color purple #b196f0;
-@define-color white #e5e9ec;
-@define-color gray #617184;
+@define-color fg0 #b0c4ce;
+@define-color fg1 #9ab3c1;
+@define-color fg2 #83a2b3;
+@define-color fg3 #6d91a5;
+@define-color black #3f5867;
+@define-color red #df6265;
+@define-color orange #ec9772;
+@define-color yellow #d9c57a;
+@define-color green #8ed084;
+@define-color teal #46c39d;
+@define-color cyan #60b8d8;
+@define-color blue #62a5fd;
+@define-color magenta #f474bc;
+@define-color purple #a47efd;
+@define-color white #b0c4ce;
+@define-color gray #466272;
+    

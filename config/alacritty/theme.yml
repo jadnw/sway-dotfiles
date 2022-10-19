@@ -1,55 +1,56 @@
-# Manhattan for Alacritty
+# Winterfell for Alacritty
 # ~/.config/alacritty/theme.yml
 colors:
   primary:
-    background: '#1f242a'
-    foreground: '#ccd3da'
-    dim_foreground: '#b3bdc8'
-    bright_foreground: '#e5e9ec'
+    background: '#192329'
+    foreground: '#9ab3c1'
+    dim_foreground: '#6d91a5'
+    bright_foreground: '#b0c4ce'
   cursor:
-    text: '#1f242a'
-    cursor: '#56c6b2'
+    text: '#192329'
+    cursor: '#8ed084'
   vi_mode_cursor:
-    text: '#1f242a'
-    cursor: '#56c6b2'
+    text: '#192329'
+    cursor: '#8ed084'
   search:
     matches:
-      foreground: '#3c4652'
-      background: '#b196f0'
+      foreground: '#2d3f4a'
+      background: '#a47efd'
     focused_match:
-      foreground: '#b196f0'
-      background: '#3c4652'
+      foreground: '#a47efd'
+      background: '#2d3f4a'
   hints:
     start:
-      foreground: '#3c4652'
-      background: '#e8ce9b'
+      foreground: '#2d3f4a'
+      background: '#d9c57a'
     end:
-      foreground: '#e8ce9b'
-      background: '#3c4652'
+      foreground: '#d9c57a'
+      background: '#2d3f4a'
   line_indicator:
     foreground: None
     background: None
   footer_bar:
-    foreground: '#3c4652'
-    background: '#b196f0'
+    foreground: '#2d3f4a'
+    background: '#a47efd'
   selection:
-    text: '#ccd3da'
-    background: '#4b5766'
+    text: '#9ab3c1'
+    background: '#334855'
   normal:
-    black: '#617184'
-    red: '#f46d7e'
-    green: '#93c68c'
-    yellow: '#e8ce9b'
-    blue: '#60aafb'
-    magenta: '#e397bb'
-    cyan: '#7ac6db'
-    white: '#e5e9ec'
+    black: '#3f5867'
+    red: '#df6265'
+    green: '#8ed084'
+    yellow: '#d9c57a'
+    blue: '#62a5fd'
+    magenta: '#f474bc'
+    cyan: '#60b8d8'
+    white: '#b0c4ce'
   bright:
-    black: '#617184'
-    red: '#f46d7e'
-    green: '#93c68c'
-    yellow: '#e8ce9b'
-    blue: '#60aafb'
-    magenta: '#e397bb'
-    cyan: '#7ac6db'
-    white: '#e5e9ec'
+    black: '#3f5867'
+    red: '#df6265'
+    green: '#8ed084'
+    yellow: '#d9c57a'
+    blue: '#62a5fd'
+    magenta: '#f474bc'
+    cyan: '#60b8d8'
+    white: '#b0c4ce'
+    

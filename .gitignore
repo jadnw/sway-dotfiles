@@ -30,3 +30,6 @@
 
 # pycache
 **/__pycache__/
+
+# log files
+*.log

@@ -34,9 +34,10 @@ ring-ver-color=00000000
 ring-wrong-color=00000000
 separator-color=00000000
 text-color=b0c4ce
-text-clear-color=60b8d8
+text-clear-color=46c39d
 text-caps-lock-color=d9c57a
 text-ver-color=8ed084
 text-wrong-color=df6265
 effect-blur=4x8
 time-effects=4
+    

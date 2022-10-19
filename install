@@ -155,11 +155,11 @@ sudo rsync --recursive ./extras/reflector /etc/xdg/
 echo "[DONE] Config files copied."
 
 # Install GTK themes
-echo "Downloading & copying Gemstones GTK themes"
-git clone https://github.com/jadnw/gemstones.gtk.git
-cp -R gemstones.gtk/themes/* ~/.local/share/themes/
-rm -rf gemstones.gtk
-echo "[DONE] Gemstones GTK themes copied."
+echo "Downloading & copying Winterfell GTK themes"
+git clone https://github.com/jadnw/winterfell.gtk.git
+cp -R winterfell.gtk/themes/* ~/.local/share/themes/
+rm -rf winterfell.gtk
+echo "[DONE] GTK themes installed."
 
 sleep 1
 

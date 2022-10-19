@@ -36,6 +36,7 @@ paru -S --noconfirm --needed \
   base-devel \
   clang \
   curl \
+  chromium \
   docker \
   docker-compose \
   docker-machine \
@@ -88,7 +89,7 @@ paru -S --noconfirm --needed \
   sway \
   swaybg \
   swaylock-effects-git \
-  ttf-fira-sans \
+  ttf-roboto \
   waybar \
   wf-recorder \
   wlr-randr \

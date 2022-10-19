@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-screenshot
-set theme ~/.config/rofi/wayland/screenshot.rasi
+set theme ~/.config/rofi/configs/screenshot.rasi
 set savepath (xdg-user-dir PICTURES)/screenshots
 mkdir -p $savepath
 

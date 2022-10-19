@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-recorder
-set theme ~/.config/rofi/wayland/recorder.rasi
+set theme ~/.config/rofi/configs/recorder.rasi
 set savepath (xdg-user-dir VIDEOS)/recordings
 mkdir -p $savepath
 

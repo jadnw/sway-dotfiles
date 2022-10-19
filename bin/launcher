@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-launcher
-set theme ~/.config/rofi/wayland/launcher.rasi
+set theme ~/.config/rofi/configs/launcher.rasi
 
 function markup
   if test -e $marker

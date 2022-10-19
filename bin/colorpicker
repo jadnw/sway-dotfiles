@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-colorpicker
-set theme ~/.config/rofi/wayland/colorpicker.rasi
+set theme ~/.config/rofi/configs/colorpicker.rasi
 
 function markup
   if test -e $marker

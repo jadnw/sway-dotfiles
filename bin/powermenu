@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-power
-set theme ~/.config/rofi/wayland/power.rasi
+set theme ~/.config/rofi/configs/power.rasi
 set uptime (uptime -p | sed -e 's/up //g')
 
 function markup

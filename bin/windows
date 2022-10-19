@@ -1,7 +1,7 @@
 #!/bin/fish
 
 set marker /tmp/waybar-windows
-set theme ~/.config/rofi/wayland/windows.rasi
+set theme ~/.config/rofi/configs/windows.rasi
 
 function markup
   if test -e $marker

@@ -89,6 +89,7 @@ paru -S --noconfirm --needed \
   sway \
   swaybg \
   swaylock-effects-git \
+  swaync \
   ttf-roboto \
   waybar \
   wf-recorder \
@@ -123,6 +124,7 @@ echo "[DONE] Default dirs created."
 
 sleep 1
 echo "Installing executables ..."
+mkdir -p ~/.local/bin
 cp ./bin/* ~/.local/bin
 
 sleep 1
@@ -132,7 +134,7 @@ echo "Downloading & copying fonts to directories ..."
 rm -rf ~/.local/share/{themes,fonts}
 mkdir -p ~/.local/share/{themes,fonts}
 git clone https://github.com/jadnw/Jetka.git
-rsync Jetka/patched/Jetka/* ~/.local/share/fonts/
+rsync Jetka/patched/* ~/.local/share/fonts/
 rm -rf Jetka
 rsync ./fonts/* ~/.local/share/fonts/
 fc-cache -r
